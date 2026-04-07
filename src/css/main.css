@@ -1,0 +1,12 @@
+/* 1. External Dependencies */
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Manrope:wght@200..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap");
+
+/* 2. Configuration & Theme */
+@import "./theme.css";
+@import "./base.css";
+
+/* 3. Tailwind Layers */
+@layer utilities {
+  /* Custom utility overrides can go here */
+}

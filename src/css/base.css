@@ -1,0 +1,24 @@
+:root {
+  --bg: var(--color-bg);
+  --text: var(--color-text);
+  --hover: var(--color-hover);
+  --whatsapp: var(--color-whatsapp);
+}
+
+.dark {
+  --bg: var(--color-bg-dark);
+  --text: var(--color-text-dark);
+  --hover: var(--color-hover-dark);
+  --sidebar: var(--color-sidebar-dark);
+  --whatsapp: var(--color-whatsapp-dark);
+}
+
+/* Hide the default browser clear button */
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+/* We will use a 'hidden' class to toggle the custom SVG */
+.hidden {
+  display: none;
+}

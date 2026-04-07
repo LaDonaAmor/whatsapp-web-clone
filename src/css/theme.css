@@ -1,0 +1,22 @@
+@theme {
+  /* Surface Colors */
+  --color-bg: #ffffff;
+  --color-bg-dark: #0b1220;
+  --color-sidebar-dark: #111827;
+
+  /* Interaction Colors */
+  --color-hover: #e5e7eb;
+  --color-hover-dark: #1f2933;
+
+  /* Content Colors */
+  --color-text: #0f172a;
+  --color-text-dark: #e5e7eb;
+
+  /* Brand Colors */
+  --color-whatsapp: #1daa61;
+  --color-whatsapp-dark: #ffffff;
+
+  /* Typography & Shape */
+  --font-sans: "Roboto", sans-serif;
+  --radius-full: 9999px;
+}
